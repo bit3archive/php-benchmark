@@ -34,7 +34,7 @@ execution per file: 0.000026 seconds
 results
 -------
 
-using @include is 0,254264 seconds faster than file_exists+include.
+using @include is 0,254264 seconds faster than file_exists+include for 100.000 files.
 
 using @include is 0,002 miliseconds faster per file than file_exists+include.
 
@@ -83,6 +83,6 @@ execution per file: 0.000037 seconds
 results
 -------
 
-the array-mapped loader is 0,484138 seconds faster than the psr-0 loader.
+the array-mapped loader is 0,484138 seconds faster than the psr-0 loader for 100.000.
 
 the array-mapped loader is 0,005 miliseconds faster per file than the psr-0 loader.
